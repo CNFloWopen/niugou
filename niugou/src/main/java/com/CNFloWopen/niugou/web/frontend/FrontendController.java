@@ -47,9 +47,4 @@ public class FrontendController {
         return "frontend/productdetail";
     }
 
-    @RequestMapping(value = "/cart",method = RequestMethod.GET)
-    public String showcart()
-    {
-        return "frontend/cart";
-    }
 }
