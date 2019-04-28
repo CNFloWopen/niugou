@@ -50,6 +50,7 @@ $(function() {
         //显示用户的名字
         $('#user-img').attr('src',getContextPath()+data.profileImg);
         $('#user-name2').text(data.name);
+        $('#user-id').text(data.userId);
     }
     $('.row').on('click', '.shop-classify', function (e) {
         var shopCategoryId = e.currentTarget.dataset.category;

@@ -23,7 +23,7 @@ public class FrontendLoginInterceptor extends HandlerInterceptorAdapter {
 //            若用户信息不为空，则将session里面的用户信息转化为personInfo实体类象
             PersonInfo user = (PersonInfo) userobj;
 //            做空值判断，确保userId不为空并且该账号可用状态为1，并且用户类型为2(店家)
-            if (user != null && user.getUserId() != null && user.getUserId() > 0 && user.getEnableStatus() == 1) {
+            if (user != null && user.getUserId() != null && user.getUserId() > 0 && user.getEnableStatus() == 1 && user.getUserType() == 1) {
 //                同过验证则返回true，拦截器返回true后，用户接下来的操作恢复正常
                 return true;
             }
