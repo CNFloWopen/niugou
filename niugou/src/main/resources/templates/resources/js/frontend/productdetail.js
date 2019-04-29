@@ -13,6 +13,16 @@ $(function() {
 											.Format("yyyy-MM-dd"));
 							$('#product-name').text(product.productName);
 							$('#product-desc').text(product.productDesc);
+							if (product.normalPrice!=undefined && product.promotionPrice != undefined)
+							{
+							//	如果原价和现价都不为空
+								$('#price').show();
+								$('#normalPrice').html(
+									'<del>' + '¥' +product.normalPrice+'</del>'
+								);
+								$('#promotionPrice').text('¥'+product.promotionPrice)
+
+							}
 							var imgListHtml = '';
 							product.productImgList.map(function(item, index) {
 								imgListHtml += '<div valign="bottom" class="card-header color-white no-border no-padding"> <img class="card-cover" src="'
