@@ -1,120 +1,67 @@
-2019-04-29 01:01:29.804 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2408 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 01:01:29.815 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-29 01:01:32.956 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.657 seconds (JVM running for 4.589)
-2019-04-29 01:02:33.011 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2426 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 01:02:33.013 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-29 01:02:35.566 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.734 seconds (JVM running for 3.427)
-2019-04-29 01:04:13.316 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2431 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 01:04:13.317 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-29 01:04:16.033 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.037 seconds (JVM running for 3.769)
-2019-04-29 01:42:18.918 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 2555 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 01:42:18.919 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 01:42:22.201 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.678 seconds (JVM running for 4.882)
-2019-04-29 01:43:14.488 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 2561 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 01:43:14.489 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 01:43:17.606 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.417 seconds (JVM running for 4.519)
-2019-04-29 01:47:28.706 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 2577 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 01:47:28.706 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 01:47:31.997 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.618 seconds (JVM running for 4.753)
-2019-04-29 01:53:28.798 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 2581 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 01:53:28.799 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 01:53:31.897 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.484 seconds (JVM running for 4.458)
-2019-04-29 02:03:10.035 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 2603 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 02:03:10.037 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 02:03:14.058 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 4.755 seconds (JVM running for 5.978)
-2019-04-29 02:04:11.317 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 2606 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 02:04:11.318 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 02:04:14.466 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.535 seconds (JVM running for 4.448)
-2019-04-29 02:08:00.503 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 2610 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 02:08:00.504 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 02:08:03.808 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.612 seconds (JVM running for 4.549)
-2019-04-29 02:08:22.580 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 2615 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 02:08:22.581 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 02:08:25.806 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.542 seconds (JVM running for 4.482)
-2019-04-29 02:09:01.569 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 2618 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 02:09:01.573 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 02:09:04.633 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.393 seconds (JVM running for 4.346)
-2019-04-29 15:47:21.268 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 970 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 15:47:21.269 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 15:47:24.707 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 4.302 seconds (JVM running for 5.589)
-2019-04-29 15:47:52.026 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 975 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 15:47:52.026 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 15:47:55.069 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.441 seconds (JVM running for 4.344)
-2019-04-29 15:50:05.879 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 978 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 15:50:05.879 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 15:50:08.919 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.532 seconds (JVM running for 4.554)
-2019-04-29 15:54:02.808 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 983 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 15:54:02.808 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 15:54:05.880 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.561 seconds (JVM running for 4.423)
-2019-04-29 15:56:55.920 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 989 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 15:56:55.921 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 15:56:59.224 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.748 seconds (JVM running for 4.704)
-2019-04-29 16:47:29.725 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 1263 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:47:29.725 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:47:32.840 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 4.027 seconds (JVM running for 5.131)
-2019-04-29 16:48:03.675 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1266 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:48:03.676 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:48:06.758 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.495 seconds (JVM running for 4.456)
-2019-04-29 16:48:22.239 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1269 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:48:22.240 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:48:25.437 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.58 seconds (JVM running for 4.463)
-2019-04-29 16:51:21.678 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1282 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:51:21.679 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:51:24.813 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.527 seconds (JVM running for 4.46)
-2019-04-29 16:51:39.257 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1286 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:51:39.258 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:51:42.563 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.727 seconds (JVM running for 4.679)
-2019-04-29 16:52:25.036 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1290 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:52:25.037 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:52:28.136 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.483 seconds (JVM running for 4.395)
-2019-04-29 16:52:40.269 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1294 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:52:40.270 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:52:43.535 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.727 seconds (JVM running for 4.79)
-2019-04-29 16:53:18.557 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1298 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:53:18.557 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:53:21.628 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.474 seconds (JVM running for 4.328)
-2019-04-29 16:53:32.807 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1302 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:53:32.808 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:53:35.987 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.51 seconds (JVM running for 4.411)
-2019-04-29 16:53:54.957 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1305 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:53:54.957 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:53:58.037 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.504 seconds (JVM running for 4.359)
-2019-04-29 16:57:26.239 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1311 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 16:57:26.240 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 16:57:29.347 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.599 seconds (JVM running for 4.502)
-2019-04-29 17:01:39.244 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1377 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 17:01:39.247 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 17:01:42.296 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.457 seconds (JVM running for 4.39)
-2019-04-29 17:02:05.624 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1381 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 17:02:05.625 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 17:02:08.792 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.589 seconds (JVM running for 4.556)
-2019-04-29 17:03:32.595 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1384 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 17:03:32.596 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 17:03:35.787 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.73 seconds (JVM running for 4.919)
-2019-04-29 17:03:45.081 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1388 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 17:03:45.082 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 17:03:48.308 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.543 seconds (JVM running for 4.435)
-2019-04-29 17:06:32.120 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1392 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 17:06:32.121 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 17:06:35.123 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 4.38 seconds (JVM running for 5.322)
-2019-04-29 17:06:59.536 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on BloAway6 with PID 1396 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 17:06:59.537 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 17:07:02.614 [main] INFO  com.CNFloWopen.niugou.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.504 seconds (JVM running for 4.404)
-2019-04-29 19:55:25.766 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on BloAway6.local with PID 1760 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 19:55:25.767 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 19:55:29.172 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 3.888 seconds (JVM running for 5.137)
-2019-04-29 19:59:08.258 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on BloAway6.local with PID 1768 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 19:59:08.259 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 19:59:11.464 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 3.733 seconds (JVM running for 4.62)
-2019-04-29 20:03:45.608 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on BloAway6.local with PID 1772 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 20:03:45.609 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 20:03:48.683 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 3.534 seconds (JVM running for 4.447)
-2019-04-29 20:16:05.161 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on BloAway6.local with PID 1825 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 20:16:05.161 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 20:16:08.348 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 3.499 seconds (JVM running for 4.41)
-2019-04-29 20:22:56.258 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on BloAway6.local with PID 1852 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 20:22:56.258 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 20:22:59.395 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 3.618 seconds (JVM running for 4.814)
-2019-04-29 20:26:18.602 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on BloAway6.local with PID 1866 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-29 20:26:18.602 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-29 20:26:21.684 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 3.568 seconds (JVM running for 4.723)
+2019-04-30 01:16:46.633 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2898 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-04-30 01:16:46.637 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-04-30 01:16:49.711 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.4 seconds (JVM running for 4.121)
+2019-04-30 01:18:52.294 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2909 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-04-30 01:18:52.296 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-04-30 01:18:55.038 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.946 seconds (JVM running for 3.607)
+2019-04-30 01:22:23.080 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2916 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-04-30 01:22:23.081 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-04-30 01:22:25.678 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.888 seconds (JVM running for 3.577)
+2019-04-30 01:25:20.825 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2923 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-04-30 01:25:20.826 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-04-30 01:25:23.464 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.922 seconds (JVM running for 3.626)
+2019-04-30 01:29:39.448 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2929 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-04-30 01:29:39.450 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-04-30 01:29:42.007 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.837 seconds (JVM running for 3.491)
+2019-04-30 01:31:47.193 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2935 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-04-30 01:31:47.194 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-04-30 01:31:49.760 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.855 seconds (JVM running for 3.584)
+2019-04-30 01:32:56.960 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2942 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-04-30 01:32:56.964 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-04-30 01:32:59.557 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.851 seconds (JVM running for 3.424)
+2019-04-30 01:34:54.239 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2954 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-04-30 01:34:54.241 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-04-30 01:34:57.139 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.188 seconds (JVM running for 4.148)
+2019-04-30 01:36:44.328 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2965 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-04-30 01:36:44.329 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-04-30 01:36:46.895 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.82 seconds (JVM running for 3.479)
+2019-04-30 01:37:11.865 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2977 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-04-30 01:37:11.867 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-04-30 01:37:14.431 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.832 seconds (JVM running for 3.475)
+2019-04-30 02:34:59.736 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><head><title>��Ҫ��ʾ</title></head><body><br><br><br><center><H1>�û����ڷ�ʵ�������ն˻�NAT��Ϊ!���Ӱ����������,Ϊ����Ϣ��ȫ,�����Ƿ��п����ն˽���,10���Ӻ�����</H1></center></body></html>
+2019-04-30 02:34:59.997 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:36:14.261 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><head><title>��Ҫ��ʾ</title></head><body><br><br><br><center><H1>�û����ڷ�ʵ�������ն˻�NAT��Ϊ!���Ӱ����������,Ϊ����Ϣ��ȫ,�����Ƿ��п����ն˽���,10���Ӻ�����</H1></center></body></html>
+2019-04-30 02:36:14.530 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:39:29.161 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 02:39:29.356 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:40:03.319 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 02:40:03.448 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:41:29.181 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 02:41:29.351 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:41:52.192 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 02:41:52.389 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:42:41.157 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 02:42:41.333 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:43:17.381 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 02:43:17.544 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:47:36.500 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:{"Code":-2,"ErrMsg":"get body failed"}
+2019-04-30 02:48:23.541 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 02:48:23.704 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:53:56.665 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 02:53:56.817 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:54:02.305 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 02:54:02.456 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 02:57:43.137 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 02:57:43.295 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 03:00:19.016 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 03:00:19.211 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 03:01:12.571 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 03:01:12.736 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 03:02:13.007 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 03:02:13.178 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 03:02:25.835 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 03:02:26.076 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 03:04:46.414 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
+2019-04-30 03:04:46.569 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
+2019-04-30 03:09:33.892 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:{"status":-1,"longurl":"","err_msg":"decoder.Decode(): invalid character 'u' looking for beginning of value"}
+2019-04-30 03:11:37.280 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:{"status":-1,"longurl":"","err_msg":"decoder.Decode(): invalid character 'u' looking for beginning of value"}

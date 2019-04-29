@@ -49,4 +49,17 @@ public class ShopAdminController {
     {
         return "shop/productmanagement";
     }
+
+    @RequestMapping(value = "/shopauthmanagement",method = RequestMethod.GET)
+    public String shopAuthManagement()
+    {
+        return "shop/shopauthmanagement";
+    }
+
+    @RequestMapping(value = "/shopauthedit",method = RequestMethod.GET)
+    public String shopAuthEdit()
+    {
+        return "shop/shopauthedit";
+    }
+
 }
