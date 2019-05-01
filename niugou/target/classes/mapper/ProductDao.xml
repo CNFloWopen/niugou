@@ -32,7 +32,7 @@
         <collection property="productImgList" column="product_img_id"
                     ofType="com.CNFloWopen.niugou.entity.ProductImg">
             <id column="product_img_id" property="productImgId" />
-            <result column="img_addr" property="imgAddr" />
+            <result column="p_imgAddr" property="imgAddr" />
             <result column="img_desc" property="imgDesc" />
             <result column="priority" property="priority" />
             <result column="create_time" property="createTime" />
@@ -115,7 +115,7 @@
         p.product_id,
         p.product_name,
         p.product_desc,
-        p.img_addr w,
+        p.img_addr ,
         p.normal_price,
         p.promotion_price,
         p.priority,
@@ -126,7 +126,7 @@
         p.product_category_id,
         p.shop_id,
         pm.product_img_id,
-        pm.img_addr,
+        pm.img_addr AS p_imgAddr,
         pm.img_desc,
         pm.priority,
         pm.create_time

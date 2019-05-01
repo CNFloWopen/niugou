@@ -41,9 +41,7 @@ $(function() {
         if (status == 0)
         {
             return '商家店铺';
-        }else if(status==-1) {
-            return '商家店铺';
-        }else if (status==2) {
+        }else if(status==1) {
             return '商家店铺';
         }
     }

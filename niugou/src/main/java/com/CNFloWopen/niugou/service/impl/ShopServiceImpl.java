@@ -1,10 +1,12 @@
 package com.CNFloWopen.niugou.service.impl;
 
 
+import com.CNFloWopen.niugou.dao.ShopAuthMapDao;
 import com.CNFloWopen.niugou.dao.ShopDao;
 import com.CNFloWopen.niugou.dto.ImageHolder;
 import com.CNFloWopen.niugou.dto.ShopExecution;
 import com.CNFloWopen.niugou.entity.Shop;
+import com.CNFloWopen.niugou.entity.ShopAuthMap;
 import com.CNFloWopen.niugou.enums.ShopStateEnum;
 import com.CNFloWopen.niugou.exceptions.ShopOperationException;
 import com.CNFloWopen.niugou.service.ShopService;
@@ -22,6 +24,10 @@ import java.util.List;
 public class ShopServiceImpl implements ShopService {
     @Autowired
     private ShopDao shopDao;
+
+    @Autowired
+    private ShopAuthMapDao shopAuthMapDao;
+
     @Override
     /**
      * 店铺注册
@@ -53,12 +59,33 @@ public class ShopServiceImpl implements ShopService {
                     } catch (Exception e) {
                         throw new ShopOperationException("addShopImg error"+e.getMessage());
                     }
-//                    更新店铺
+//                    更新店铺的图片地址
                     effect = shopDao.updateShop(shop);
                     if (effect<=0)
                     {
-                        throw new ShopOperationException("更新失败");
+                        throw new ShopOperationException("更新图片地址失败");
                     }
+//                    执行增加shopAuthMap的操作
+//                    创建店铺的时候默认创建店家角色
+                    ShopAuthMap shopAuthMap = new ShopAuthMap();
+                    shopAuthMap.setEmployee(shop.getOwner());
+                    shopAuthMap.setShop(shop);
+                    shopAuthMap.setTitle("店家");
+                    shopAuthMap.setTitleFlag(0);
+                    shopAuthMap.setCreateTime(new Date());
+                    shopAuthMap.setLastEditTime(new Date());
+                    shopAuthMap.setEnableStatus(1);
+                    try {
+                        effect = shopAuthMapDao.insertShopAuthMap(shopAuthMap);
+                        if (effect<=0)
+                        {
+                            throw new ShopOperationException("授权失败");
+                        }
+                    }catch (Exception e)
+                    {
+                        throw new ShopOperationException("insertShopAuthMap error:"+e.getMessage());
+                    }
+
                 }
             }
 

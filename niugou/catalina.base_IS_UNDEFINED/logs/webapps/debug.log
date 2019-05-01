@@ -8,3 +8,37 @@
 2019-04-30 01:34:54.240 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
 2019-04-30 01:36:44.329 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
 2019-04-30 01:37:11.866 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 14:55:08.442 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 15:12:26.235 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 15:21:49.139 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 15:23:29.809 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 15:29:19.724 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 15:29:53.401 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 19:09:45.387 [main] DEBUG com.CNFloWopen.niugou.ShopAuthMapDaoTest - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 19:11:26.112 [main] DEBUG com.CNFloWopen.niugou.ShopAuthMapDaoTest - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 22:11:09.168 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:00:56.263 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:04:19.676 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:05:38.900 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:08:35.638 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:17:55.179 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:19:01.339 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:22:03.924 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:24:17.947 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:27:01.479 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:32:21.905 [main] DEBUG com.CNFloWopen.niugou.NiugouApplication - Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-04-30 23:33:21.078 [http-nio-8080-exec-5] DEBUG com.CNFloWopen.niugou.util.ImageUtil - current complete relativeAddr is/upload/item/shop/1/2019043023332140673.jpg
+2019-04-30 23:33:21.078 [http-nio-8080-exec-5] DEBUG com.CNFloWopen.niugou.util.ImageUtil - current complete addr is/Users/argeszy/resources/image/upload/item/shop/1/2019043023332140673.jpg
+2019-04-30 23:33:21.078 [http-nio-8080-exec-5] DEBUG com.CNFloWopen.niugou.util.ImageUtil - basePath is/Users/argeszy/resources/image
+2019-04-30 23:33:21.272 [http-nio-8080-exec-5] DEBUG com.CNFloWopen.niugou.util.ImageUtil - current complete relativeAddr is/upload/item/shop/1/2019043023332111362.jpg
+2019-04-30 23:33:21.273 [http-nio-8080-exec-5] DEBUG com.CNFloWopen.niugou.util.ImageUtil - current complete addr is/Users/argeszy/resources/image/upload/item/shop/1/2019043023332111362.jpg
+2019-04-30 23:33:21.273 [http-nio-8080-exec-5] DEBUG com.CNFloWopen.niugou.util.ImageUtil - basePath is/Users/argeszy/resources/image
+2019-04-30 23:33:46.893 [http-nio-8080-exec-9] DEBUG com.CNFloWopen.niugou.util.ImageUtil - current complete relativeAddr is/upload/item/shop/1/2019043023334699526.jpg
+2019-04-30 23:33:46.893 [http-nio-8080-exec-9] DEBUG com.CNFloWopen.niugou.util.ImageUtil - current complete addr is/Users/argeszy/resources/image/upload/item/shop/1/2019043023334699526.jpg
+2019-04-30 23:33:46.893 [http-nio-8080-exec-9] DEBUG com.CNFloWopen.niugou.util.ImageUtil - basePath is/Users/argeszy/resources/image
+2019-04-30 23:33:47.047 [http-nio-8080-exec-9] DEBUG com.CNFloWopen.niugou.util.ImageUtil - current complete relativeAddr is/upload/item/shop/1/2019043023334749099.jpg
+2019-04-30 23:33:47.047 [http-nio-8080-exec-9] DEBUG com.CNFloWopen.niugou.util.ImageUtil - current complete addr is/Users/argeszy/resources/image/upload/item/shop/1/2019043023334749099.jpg
+2019-04-30 23:33:47.047 [http-nio-8080-exec-9] DEBUG com.CNFloWopen.niugou.util.ImageUtil - basePath is/Users/argeszy/resources/image
+2019-04-30 23:33:47.076 [http-nio-8080-exec-9] DEBUG com.CNFloWopen.niugou.util.ImageUtil - current complete relativeAddr is/upload/item/shop/1/2019043023334787640.jpg
+2019-04-30 23:33:47.076 [http-nio-8080-exec-9] DEBUG com.CNFloWopen.niugou.util.ImageUtil - current complete addr is/Users/argeszy/resources/image/upload/item/shop/1/2019043023334787640.jpg
+2019-04-30 23:33:47.076 [http-nio-8080-exec-9] DEBUG com.CNFloWopen.niugou.util.ImageUtil - basePath is/Users/argeszy/resources/image

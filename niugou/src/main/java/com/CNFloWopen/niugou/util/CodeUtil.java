@@ -56,7 +56,7 @@ public class CodeUtil {
         BitMatrix bitMatrix;
         try {
 //            参数顺序为：编码内容，编码类型，生成图片高度，设置参数
-            bitMatrix = new MultiFormatWriter().encode(content, BarcodeFormat.QR_CODE,300,300,hints);
+             bitMatrix = new MultiFormatWriter().encode(content, BarcodeFormat.QR_CODE,300,300,hints);
         }catch (WriterException e)
         {
             e.printStackTrace();
