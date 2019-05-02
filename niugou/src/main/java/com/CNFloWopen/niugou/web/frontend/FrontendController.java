@@ -47,4 +47,14 @@ public class FrontendController {
         return "frontend/productdetail";
     }
 
+    /**
+     * 消费记录路由
+     * @return
+     */
+    @RequestMapping(value = "/myrecord",method = RequestMethod.GET)
+    public String showMyRecord()
+    {
+        return "frontend/myrecord";
+    }
+
 }

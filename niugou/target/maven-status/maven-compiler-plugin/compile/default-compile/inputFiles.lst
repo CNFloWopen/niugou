@@ -15,6 +15,7 @@
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/shopadmin/ShopManagementController.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/enums/ShopStateEnum.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/wechat/WechatLoginController.java
+/Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/shopadmin/UserProductManagementController.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/impl/AreaServiceImpl.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/LocalAuthService.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dao/ShopCategoryDao.java
@@ -32,6 +33,7 @@
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/impl/ProductServiceImpl.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dto/ProductCategoryExecution.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dao/PersonInfoDao.java
+/Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dto/UserProductMapExecution.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/impl/HeadLineServiceImpl.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/cache/JedisPoolWriper.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/impl/CacheServiceImpl.java
@@ -44,6 +46,7 @@
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dto/WechatAuthExecution.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dao/AreaDao.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/impl/WechatAuthServiceImpl.java
+/Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/frontend/MyProductController.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/config/dao/SessionFactoryConfiguration.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/entity/WechatInfo.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/config/redis/RedisConfiguration.java
@@ -76,6 +79,7 @@
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dto/WechatUser.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dao/ProductImgDao.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/wechat/WechatController.java
+/Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/UserProductMapService.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dto/ShopAuthMapExecution.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dto/UserAccessToken.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/AreaService.java
@@ -98,6 +102,7 @@
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/frontend/ShopDetailController.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/util/wechat/WechatUtil.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/util/HttpServletRequestUtil.java
+/Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/enums/UserProductMapStateEnum.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/interceptor/ShopLoginInterceptor.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/entity/LocalAuth.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dto/ProductExecution.java
@@ -105,3 +110,4 @@
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/ProductService.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/util/EncryptPropertyPlaceholderConfigurer.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/impl/ShopCategoryServiceImpl.java
+/Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/impl/UserProductMapServiceImpl.java

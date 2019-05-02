@@ -1,7 +1,5 @@
 package com.CNFloWopen.niugou.config.web;
 
-//import com.CNFloWopen.niugou.interceptor.ShopLoginInterceptor;
-//import com.CNFloWopen.niugou.interceptor.ShopPermissionInterceptor;
 import com.CNFloWopen.niugou.interceptor.FrontendLoginInterceptor;
 import com.CNFloWopen.niugou.interceptor.ShopLoginInterceptor;
 import com.CNFloWopen.niugou.interceptor.ShopPermissionInterceptor;
@@ -138,7 +136,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
         loginIR.addPathPatterns(interceptPath);
 //        由于扫描的时候不需要登录系统做操作
         loginIR.excludePathPatterns("/shopadmin/addshopauthmap");
-
+        loginIR.excludePathPatterns("/shopadmin/adduserproductmap");
 
 //        注册其他拦截器
         InterceptorRegistration permissionIR = registry.addInterceptor(new ShopPermissionInterceptor());
@@ -157,7 +155,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
         permissionIR.excludePathPatterns("/shopadmin/getshopmanagementinfo");
 
         permissionIR.excludePathPatterns("/shopadmin/addshopauthmap");
-
+        permissionIR.excludePathPatterns("/shopadmin/adduserproductmap");
         // 注册用户拦截器
         InterceptorRegistration loginIR2 =registry.addInterceptor(new FrontendLoginInterceptor());
 //        配置拦截的路径
@@ -171,6 +169,10 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
         loginIR2.excludePathPatterns("/frontend/listshopspageinfo");
         loginIR2.excludePathPatterns("/frontend/listshops");
         loginIR2.excludePathPatterns("/frontend/listproductsbyshop");
+        loginIR2.excludePathPatterns("/shopadmin/listuserproductmapsbyshop");
+        loginIR2.excludePathPatterns("/frontend/listuserproductmapsbycustomer");
+        loginIR2.excludePathPatterns("/shopadmin/adduserproductmap");
+//        loginIR2.excludePathPatterns("/frontend/myrecord");
         loginIR2.excludePathPatterns("/shopadmin/addshopauthmap");
     }
 }

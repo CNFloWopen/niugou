@@ -16,13 +16,14 @@ public interface UserProductMapService {
 			UserProductMap userProductCondition, Integer pageIndex,
 			Integer pageSize);
 
-//	/**
-//	 *
-//	 * @param userProductMap
-//	 * @return
-//	 * @throws RuntimeException
-//	 */
-//	UserProductMapExecution addUserProductMap(UserProductMap userProductMap)
-//			throws RuntimeException;
+
+	/**
+	 *添加用户消费记录
+	 * @param userProductMap
+	 * @return
+	 * @throws RuntimeException
+	 */
+	UserProductMapExecution addUserProductMap(UserProductMap userProductMap)
+			throws RuntimeException;
 
 }

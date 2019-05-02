@@ -63,4 +63,16 @@ public class UserProductMap {
 	public void setOperator(PersonInfo operator) {
 		this.operator = operator;
 	}
+
+	@Override
+	public String toString() {
+		return "UserProductMap{" +
+				"userProductId=" + userProductId +
+				", createTime=" + createTime +
+				", user=" + user +
+				", product=" + product +
+				", shop=" + shop +
+				", operator=" + operator +
+				'}';
+	}
 }

@@ -6,6 +6,7 @@ import com.CNFloWopen.niugou.dto.ImageHolder;
 
 import com.CNFloWopen.niugou.entity.ShopCategory;
 
+import com.CNFloWopen.niugou.service.CacheService;
 import com.CNFloWopen.niugou.service.ShopCategoryService;
 import com.CNFloWopen.niugou.util.ImageUtil;
 import com.CNFloWopen.niugou.util.PathUtil;
@@ -32,14 +33,15 @@ public class ShopCategoryServiceImpl implements ShopCategoryService {
     private JedisUtil.Keys jedisKeys;
     @Autowired
     private JedisUtil.Strings jedisStrings;
-
+    @Autowired
+    private CacheService cacheService;
     private static Logger logger = LoggerFactory.getLogger(ShopCategoryServiceImpl.class);
     @Override
     public List<ShopCategory> getShopCategoryList(ShopCategory shopCategoryCondition) {
         String key = SCLISTKEY;
         List<ShopCategory> shopCategoryList = null;
         ObjectMapper mapper = new ObjectMapper();
-
+//        cacheService.removeFromCache(key);
         if (shopCategoryCondition == null)
         {
             key = key+"_allfirstlevel";

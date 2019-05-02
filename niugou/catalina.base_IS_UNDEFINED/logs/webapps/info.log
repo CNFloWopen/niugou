@@ -1,124 +1,147 @@
-2019-04-30 01:16:46.633 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2898 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 01:16:46.637 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 01:16:49.711 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.4 seconds (JVM running for 4.121)
-2019-04-30 01:18:52.294 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2909 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 01:18:52.296 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 01:18:55.038 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.946 seconds (JVM running for 3.607)
-2019-04-30 01:22:23.080 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2916 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 01:22:23.081 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 01:22:25.678 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.888 seconds (JVM running for 3.577)
-2019-04-30 01:25:20.825 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2923 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 01:25:20.826 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 01:25:23.464 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.922 seconds (JVM running for 3.626)
-2019-04-30 01:29:39.448 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2929 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 01:29:39.450 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 01:29:42.007 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.837 seconds (JVM running for 3.491)
-2019-04-30 01:31:47.193 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2935 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 01:31:47.194 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 01:31:49.760 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.855 seconds (JVM running for 3.584)
-2019-04-30 01:32:56.960 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2942 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 01:32:56.964 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 01:32:59.557 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.851 seconds (JVM running for 3.424)
-2019-04-30 01:34:54.239 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2954 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 01:34:54.241 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 01:34:57.139 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.188 seconds (JVM running for 4.148)
-2019-04-30 01:36:44.328 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2965 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 01:36:44.329 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 01:36:46.895 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.82 seconds (JVM running for 3.479)
-2019-04-30 01:37:11.865 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 2977 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 01:37:11.867 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 01:37:14.431 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.832 seconds (JVM running for 3.475)
-2019-04-30 02:34:59.736 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><head><title>��Ҫ��ʾ</title></head><body><br><br><br><center><H1>�û����ڷ�ʵ�������ն˻�NAT��Ϊ!���Ӱ����������,Ϊ����Ϣ��ȫ,�����Ƿ��п����ն˽���,10���Ӻ�����</H1></center></body></html>
-2019-04-30 02:34:59.997 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:36:14.261 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><head><title>��Ҫ��ʾ</title></head><body><br><br><br><center><H1>�û����ڷ�ʵ�������ն˻�NAT��Ϊ!���Ӱ����������,Ϊ����Ϣ��ȫ,�����Ƿ��п����ն˽���,10���Ӻ�����</H1></center></body></html>
-2019-04-30 02:36:14.530 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:39:29.161 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 02:39:29.356 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:40:03.319 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 02:40:03.448 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:41:29.181 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 02:41:29.351 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:41:52.192 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 02:41:52.389 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:42:41.157 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 02:42:41.333 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:43:17.381 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 02:43:17.544 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:47:36.500 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:{"Code":-2,"ErrMsg":"get body failed"}
-2019-04-30 02:48:23.541 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 02:48:23.704 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:53:56.665 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 02:53:56.817 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:54:02.305 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 02:54:02.456 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 02:57:43.137 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 02:57:43.295 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 03:00:19.016 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 03:00:19.211 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 03:01:12.571 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 03:01:12.736 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 03:02:13.007 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 03:02:13.178 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 03:02:25.835 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 03:02:26.076 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 03:04:46.414 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:
-2019-04-30 03:04:46.569 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - tinyurl:null
-2019-04-30 03:09:33.892 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:{"status":-1,"longurl":"","err_msg":"decoder.Decode(): invalid character 'u' looking for beginning of value"}
-2019-04-30 03:11:37.280 [main] INFO  com.CNFloWopen.niugou.util.ShortNetAddressUtil - response str:{"status":-1,"longurl":"","err_msg":"decoder.Decode(): invalid character 'u' looking for beginning of value"}
-2019-04-30 14:55:08.441 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 977 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 14:55:08.443 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 14:55:11.101 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.027 seconds (JVM running for 3.907)
-2019-04-30 15:12:26.234 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 1032 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 15:12:26.235 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 15:12:29.307 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.52 seconds (JVM running for 5.094)
-2019-04-30 15:21:49.138 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 1045 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 15:21:49.139 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 15:21:51.633 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.914 seconds (JVM running for 3.649)
-2019-04-30 15:23:29.808 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 1060 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 15:23:29.810 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 15:23:32.381 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.74 seconds (JVM running for 3.357)
-2019-04-30 15:29:19.723 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 1074 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 15:29:19.724 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 15:29:22.775 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.51 seconds (JVM running for 4.306)
-2019-04-30 15:29:53.400 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 1098 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 15:29:53.401 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 15:29:56.881 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.904 seconds (JVM running for 5.337)
-2019-04-30 19:09:45.386 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on BloAway6.local with PID 3214 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 19:09:45.387 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-30 19:09:48.306 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 3.357 seconds (JVM running for 5.335)
-2019-04-30 19:11:26.111 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on BloAway6.local with PID 3222 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 19:11:26.112 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
-2019-04-30 19:11:29.850 [main] INFO  com.CNFloWopen.niugou.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 4.07 seconds (JVM running for 5.502)
-2019-04-30 22:11:09.165 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 3907 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 22:11:09.169 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 22:11:12.944 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 4.256 seconds (JVM running for 5.653)
-2019-04-30 23:00:56.262 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 4156 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 23:00:56.263 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 23:00:59.008 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.907 seconds (JVM running for 3.526)
-2019-04-30 23:04:19.675 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 4192 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 23:04:19.677 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 23:04:22.499 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.032 seconds (JVM running for 3.656)
-2019-04-30 23:05:38.897 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4203 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 23:05:38.901 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 23:05:41.594 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.859 seconds (JVM running for 3.526)
-2019-04-30 23:08:35.637 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4208 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 23:08:35.638 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 23:08:38.316 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.83 seconds (JVM running for 3.547)
-2019-04-30 23:17:55.177 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4240 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 23:17:55.179 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 23:17:57.835 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.837 seconds (JVM running for 3.639)
-2019-04-30 23:19:01.338 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4247 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 23:19:01.339 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 23:19:03.931 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.749 seconds (JVM running for 3.406)
-2019-04-30 23:22:03.922 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4264 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 23:22:03.924 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 23:22:06.610 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.864 seconds (JVM running for 3.497)
-2019-04-30 23:24:17.946 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4269 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 23:24:17.948 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 23:24:20.527 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.759 seconds (JVM running for 3.377)
-2019-04-30 23:27:01.478 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4282 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 23:27:01.480 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 23:27:04.167 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.866 seconds (JVM running for 3.488)
-2019-04-30 23:32:21.904 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4294 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
-2019-04-30 23:32:21.905 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
-2019-04-30 23:32:24.527 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.832 seconds (JVM running for 3.622)
+2019-05-02 00:41:32.859 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4455 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 00:41:32.866 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 00:41:35.317 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.724 seconds (JVM running for 4.181)
+2019-05-02 00:42:53.745 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4474 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 00:42:53.747 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 00:42:56.327 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.762 seconds (JVM running for 3.379)
+2019-05-02 00:43:11.559 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4478 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 00:43:11.560 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 00:43:14.178 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.767 seconds (JVM running for 3.372)
+2019-05-02 00:46:07.551 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4496 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 00:46:07.553 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 00:46:10.154 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.871 seconds (JVM running for 3.646)
+2019-05-02 00:48:28.341 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4508 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 00:48:28.343 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 00:48:31.037 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.868 seconds (JVM running for 3.758)
+2019-05-02 00:50:29.584 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4524 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 00:50:29.584 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 00:50:32.210 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.77 seconds (JVM running for 3.431)
+2019-05-02 00:59:54.402 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Starting UserProductMapDaoTest on BloAway6 with PID 4635 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 00:59:54.403 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-02 00:59:57.560 [main] INFO  com.CNFloWopen.niugou.UserProductMapDaoTest - Started UserProductMapDaoTest in 3.495 seconds (JVM running for 4.662)
+2019-05-02 01:07:55.558 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - Starting UserProductMapServiceTest on BloAway6 with PID 4646 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:07:55.559 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - No active profile set, falling back to default profiles: default
+2019-05-02 01:07:58.917 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - Started UserProductMapServiceTest in 3.637 seconds (JVM running for 4.546)
+2019-05-02 01:09:46.005 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - Starting UserProductMapServiceTest on BloAway6 with PID 4653 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:09:46.005 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - No active profile set, falling back to default profiles: default
+2019-05-02 01:09:49.280 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - Started UserProductMapServiceTest in 3.532 seconds (JVM running for 4.592)
+2019-05-02 01:10:24.362 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4659 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:10:24.363 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 01:10:27.072 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.905 seconds (JVM running for 3.513)
+2019-05-02 01:14:07.826 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4667 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:14:07.829 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 01:14:10.439 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.787 seconds (JVM running for 3.569)
+2019-05-02 01:15:05.984 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4672 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:15:05.985 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 01:15:09.136 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.539 seconds (JVM running for 4.524)
+2019-05-02 01:20:53.009 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4713 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:20:53.010 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 01:20:56.320 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.58 seconds (JVM running for 4.401)
+2019-05-02 01:29:00.473 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4723 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:29:00.475 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 01:29:03.234 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.949 seconds (JVM running for 3.566)
+2019-05-02 01:31:58.523 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4729 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:31:58.525 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 01:32:01.470 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.242 seconds (JVM running for 4.563)
+2019-05-02 01:35:31.130 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4735 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:35:31.135 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 01:35:34.541 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.829 seconds (JVM running for 4.73)
+2019-05-02 01:41:02.039 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - Starting UserProductMapServiceTest on BloAway6 with PID 4739 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:41:02.040 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - No active profile set, falling back to default profiles: default
+2019-05-02 01:41:05.001 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - Started UserProductMapServiceTest in 3.175 seconds (JVM running for 3.911)
+2019-05-02 01:41:19.839 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - Starting UserProductMapServiceTest on BloAway6 with PID 4743 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:41:19.840 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - No active profile set, falling back to default profiles: default
+2019-05-02 01:41:23.489 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - Started UserProductMapServiceTest in 3.909 seconds (JVM running for 4.811)
+2019-05-02 01:44:21.942 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - Starting UserProductMapServiceTest on BloAway6 with PID 4747 (started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:44:21.943 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - No active profile set, falling back to default profiles: default
+2019-05-02 01:44:25.162 [main] INFO  c.C.niugou.service.UserProductMapServiceTest - Started UserProductMapServiceTest in 3.465 seconds (JVM running for 4.365)
+2019-05-02 01:44:32.724 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6 with PID 4750 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 01:44:32.727 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 01:44:35.343 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.807 seconds (JVM running for 3.389)
+2019-05-02 11:05:30.775 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 547 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:05:30.777 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:05:34.238 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.813 seconds (JVM running for 4.954)
+2019-05-02 11:07:59.039 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 638 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:07:59.041 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:08:01.756 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.875 seconds (JVM running for 3.573)
+2019-05-02 11:11:30.648 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 683 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:11:30.650 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:11:33.353 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.854 seconds (JVM running for 3.499)
+2019-05-02 11:14:13.159 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 692 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:14:13.163 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:14:15.734 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.811 seconds (JVM running for 3.673)
+2019-05-02 11:16:03.856 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 802 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:16:03.858 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:16:06.529 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.856 seconds (JVM running for 3.425)
+2019-05-02 11:18:23.005 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 813 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:18:23.009 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:18:26.107 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.26 seconds (JVM running for 4.021)
+2019-05-02 11:20:50.052 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 842 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:20:50.053 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:20:52.697 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.824 seconds (JVM running for 3.571)
+2019-05-02 11:23:01.656 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 858 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:23:01.657 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:23:04.287 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.784 seconds (JVM running for 3.531)
+2019-05-02 11:27:11.493 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 879 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:27:11.494 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:27:14.197 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.999 seconds (JVM running for 3.924)
+2019-05-02 11:31:55.128 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 902 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:31:55.129 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:31:57.728 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.877 seconds (JVM running for 3.89)
+2019-05-02 11:34:17.969 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 913 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:34:17.971 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:34:20.601 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.806 seconds (JVM running for 3.686)
+2019-05-02 11:34:51.070 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 917 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:34:51.071 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:34:53.703 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.774 seconds (JVM running for 3.416)
+2019-05-02 11:36:22.247 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 927 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:36:22.249 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:36:24.924 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.909 seconds (JVM running for 3.83)
+2019-05-02 11:36:39.987 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 932 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:36:39.989 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:36:42.704 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.889 seconds (JVM running for 3.556)
+2019-05-02 11:37:19.164 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 936 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:37:19.166 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:37:21.791 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.801 seconds (JVM running for 3.471)
+2019-05-02 11:37:42.239 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 940 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:37:42.243 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:37:44.922 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.893 seconds (JVM running for 3.508)
+2019-05-02 11:38:12.996 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 944 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:38:12.997 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:38:15.733 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.904 seconds (JVM running for 3.548)
+2019-05-02 11:39:00.162 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 948 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:39:00.163 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:39:02.781 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.764 seconds (JVM running for 3.397)
+2019-05-02 11:41:43.895 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 954 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:41:43.897 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:41:46.553 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.855 seconds (JVM running for 3.617)
+2019-05-02 11:42:18.026 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 958 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:42:18.027 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:42:20.670 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.87 seconds (JVM running for 3.504)
+2019-05-02 11:48:06.836 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 967 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:48:06.837 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:48:09.464 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.824 seconds (JVM running for 3.611)
+2019-05-02 11:51:42.665 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 980 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:51:42.667 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:51:45.350 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.871 seconds (JVM running for 3.641)
+2019-05-02 11:52:35.911 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 988 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:52:35.913 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:52:38.609 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.895 seconds (JVM running for 3.553)
+2019-05-02 11:53:58.237 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 992 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 11:53:58.240 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 11:54:00.792 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.796 seconds (JVM running for 3.603)
+2019-05-02 13:03:33.229 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 1204 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 13:03:33.235 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 13:03:35.937 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.959 seconds (JVM running for 3.627)
+2019-05-02 13:05:55.602 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 1229 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 13:05:55.604 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 13:05:58.203 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.848 seconds (JVM running for 3.715)
+2019-05-02 15:22:15.015 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 1952 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 15:22:15.017 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 15:22:18.167 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 3.543 seconds (JVM running for 5.229)
+2019-05-02 15:24:50.687 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 1972 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 15:24:50.689 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 15:24:53.444 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.988 seconds (JVM running for 3.794)
+2019-05-02 15:28:57.830 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Starting NiugouApplication on BloAway6.local with PID 1977 (/Users/argeszy/warehouse/pos/niugou/target/classes started by argeszy in /Users/argeszy/warehouse/pos/niugou)
+2019-05-02 15:28:57.831 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - No active profile set, falling back to default profiles: default
+2019-05-02 15:29:00.469 [main] INFO  com.CNFloWopen.niugou.NiugouApplication - Started NiugouApplication in 2.864 seconds (JVM running for 3.624)

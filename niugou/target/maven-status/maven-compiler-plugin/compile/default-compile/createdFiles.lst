@@ -13,10 +13,13 @@ com/CNFloWopen/niugou/entity/ProductCategory.class
 com/CNFloWopen/niugou/config/web/MvcConfiguration.class
 com/CNFloWopen/niugou/enums/ProductStateEnum.class
 com/CNFloWopen/niugou/entity/PersonInfo.class
+com/CNFloWopen/niugou/service/impl/UserProductMapServiceImpl.class
 com/CNFloWopen/niugou/dao/ProductDao.class
 com/CNFloWopen/niugou/entity/HeadLine.class
 com/CNFloWopen/niugou/cache/JedisUtil.class
+com/CNFloWopen/niugou/enums/UserProductMapStateEnum.class
 com/CNFloWopen/niugou/enums/ProductCategoryStateEnum.class
+com/CNFloWopen/niugou/web/frontend/MyProductController.class
 com/CNFloWopen/niugou/service/impl/ProductCategoryServiceImpl.class
 com/CNFloWopen/niugou/service/impl/ShopAuthMapServiceImpl.class
 com/CNFloWopen/niugou/service/impl/LocalAuthServiceImpl.class
@@ -61,6 +64,7 @@ com/CNFloWopen/niugou/web/frontend/FrontendController.class
 com/CNFloWopen/niugou/util/ShortNetAddressUtil.class
 com/CNFloWopen/niugou/web/wechat/WechatLoginController.class
 com/CNFloWopen/niugou/util/DESUtils.class
+com/CNFloWopen/niugou/web/shopadmin/UserProductManagementController.class
 com/CNFloWopen/niugou/service/impl/AreaServiceImpl.class
 com/CNFloWopen/niugou/entity/UserProductMap.class
 com/CNFloWopen/niugou/interceptor/ShopPermissionInterceptor.class
@@ -78,6 +82,7 @@ com/CNFloWopen/niugou/web/local/LocalAuthController.class
 com/CNFloWopen/niugou/service/impl/ShopServiceImpl.class
 com/CNFloWopen/niugou/config/service/TransactionManagementConfiguration.class
 com/CNFloWopen/niugou/util/BaiduDwz$UrlResponse.class
+com/CNFloWopen/niugou/dto/UserProductMapExecution.class
 com/CNFloWopen/niugou/util/HttpServletRequestUtil.class
 com/CNFloWopen/niugou/cache/JedisUtil$Strings.class
 com/CNFloWopen/niugou/entity/Product.class
@@ -86,6 +91,7 @@ com/CNFloWopen/niugou/dto/ImageHolder.class
 com/CNFloWopen/niugou/config/dao/DataSourceConfiguration.class
 com/CNFloWopen/niugou/config/redis/RedisConfiguration.class
 com/CNFloWopen/niugou/entity/Area.class
+com/CNFloWopen/niugou/service/UserProductMapService.class
 com/CNFloWopen/niugou/enums/ShopAuthMapStateEnum.class
 com/CNFloWopen/niugou/dao/ProductImgDao.class
 com/CNFloWopen/niugou/dao/UserProductMapDao.class
