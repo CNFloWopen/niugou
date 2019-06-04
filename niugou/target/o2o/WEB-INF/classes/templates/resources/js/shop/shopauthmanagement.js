@@ -86,6 +86,6 @@ $(function() {
     });
 
     // $('#new').click(function () {
-    //     window.location.href = '/myo2o/shop/shopauthedit';
+    //     window.location.href = '/o2o/shop/shopauthedit';
     // });
 });

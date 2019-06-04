@@ -34,10 +34,4 @@ public class LocalController {
         return "local/login";
     }
 
-    @RequestMapping(value = "/register",method = RequestMethod.GET)
-    public String register()
-    {
-        return "local/register";
-    }
-
 }

@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 检测验证码的工具类
+ * 验证码和二维码工具类
  */
 public class CodeUtil {
 

@@ -49,11 +49,11 @@ public interface ShopDao {
     int queryShopCount(@Param("shopCondition") Shop shopCondition);
 
     /**
-     * 删除店铺（初版，即只支持删除尚且没有发布商品的店铺）
+     * 删除店铺
      *
-     * @param shopName
+     * @param shopId
      * @return effectedNum
      */
-    int deleteShopByName(String shopName);
+    void deleteShopByEnable(long shopId);
 
 }

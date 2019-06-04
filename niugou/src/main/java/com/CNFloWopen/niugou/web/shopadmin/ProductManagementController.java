@@ -162,6 +162,7 @@ public class ProductManagementController {
     public Map<String, Object> modifyProduct(HttpServletRequest request) throws RuntimeException {
         Map<String, Object> modelMap = new HashMap<String, Object>();
         boolean statusChange = HttpServletRequestUtil.getBoolean(request, "statusChange");
+        System.out.println(statusChange);
         if (!statusChange && !CodeUtil.checkVerifyCode(request)) {
             modelMap.put("success", false);
             modelMap.put("errMsg", "输入了错误的验证码");

@@ -20,15 +20,7 @@ public interface LocalAuthService {
 	 */
 	LocalAuth getLocalAuthByUserId(long userId);
 
-	/**
-	 *
-	 * @param localAuth
-	 * @param profileImg
-	 * @return
-	 * @throws RuntimeException
-	 */
-	LocalAuthExecution register(LocalAuth localAuth,
-                                ImageHolder profileImg) throws RuntimeException;
+
 
 	/**
 	 * 绑定微信，生成平台专属账号
@@ -50,4 +42,6 @@ public interface LocalAuthService {
 	 */
 	LocalAuthExecution modifyLocalAuth(Long userId, String userName,
                                        String password, String newPassword);
+
+
 }

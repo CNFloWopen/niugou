@@ -19,6 +19,7 @@ public class DESUtils {
 		try {
 			KeyGenerator generator = KeyGenerator.getInstance(ALGORITHM);
 			SecureRandom secureRandom = SecureRandom.getInstance("SHA1PRNG");
+//			设置密钥种子
 			secureRandom.setSeed(KEY_STR.getBytes());
 			generator.init(secureRandom);
 			key = generator.generateKey();
@@ -29,11 +30,15 @@ public class DESUtils {
 	}
 
 	public static String getEncryptString(String str) {
+//		基于BASE64编码，接收byte[]并转化成string，输出Binary资料
 		BASE64Encoder base64encoder = new BASE64Encoder();
 		try {
 			byte[] bytes = str.getBytes(CHARSETNAME);
+//			获取加密对象
 			Cipher cipher = Cipher.getInstance(ALGORITHM);
+//			初始化加密对象
 			cipher.init(Cipher.ENCRYPT_MODE, key);
+//			doFinal方法进行把字节进行加密
 			byte[] doFinal = cipher.doFinal(bytes);
 			return base64encoder.encode(doFinal);
 		} catch (Exception e) {

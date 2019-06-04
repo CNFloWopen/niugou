@@ -48,9 +48,8 @@ $(function() {
     });
     function handleUser(data) {
         //显示用户的名字
-        $('#user-img').attr('src',getContextPath()+data.profileImg);
-        $('#user-name2').text(data.name);
-        $('#user-id').text(data.userId);
+        $('#user-img').attr('src',data.profileImg);
+        $('#user-name2').text('欢迎您,'+data.name);
     }
     $('.row').on('click', '.shop-classify', function (e) {
         var shopCategoryId = e.currentTarget.dataset.category;

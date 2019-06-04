@@ -66,7 +66,7 @@ $(function() {
 		var product = {};
 		product.productId = id;
 		product.enableStatus = enableStatus;
-		$.confirm('are you true', function() {
+		$.confirm("确定吗?", function() {
 			//上下架相关商品
 			$.ajax({
 				url : statusUrl,

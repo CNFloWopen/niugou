@@ -17,7 +17,7 @@ import java.util.Random;
 /**
  * 用户上传文件时的处理方式
  */
-public class ImageUtil {
+public class  ImageUtil {
     private static Logger logger = LoggerFactory.getLogger(ImageUtil.class);
     //获取当前目录的
     private static String basePath = "/Users/argeszy/resources/image";
@@ -36,7 +36,7 @@ public class ImageUtil {
         String extension = getFileExtension(thumbnail.getImageName());//获取后缀名
         makeDirPath(targetAddr);//创建目录
         //targetAddr这个是存放的子目录
-        String relativeAddr = targetAddr + realFileName + extension;//获取总名字
+        String relativeAddr = targetAddr + realFileName + extension;//获取上传的名字
         logger.debug("current complete relativeAddr is"+relativeAddr);
         File dest = new File(PathUtil.getImgBasePath()+relativeAddr);//创建文件
         logger.debug("current complete addr is"+PathUtil.getImgBasePath()+relativeAddr);
@@ -81,7 +81,14 @@ public class ImageUtil {
      * @return
      */
     private static String getFileExtension(String fileName) {
-        return fileName.substring(fileName.lastIndexOf("."));
+        fileName = fileName.substring(fileName.lastIndexOf("."));
+        if (fileName.equalsIgnoreCase(".jpg") || fileName.equalsIgnoreCase(".png") ||fileName.equalsIgnoreCase(".jpeg") )
+        {
+            return fileName;
+        }else {
+            throw new RuntimeException("上传的格式只能为jpg或png或jpeg");
+        }
+//        return fileName.substring(fileName.lastIndexOf("."));
     }
 
     /**

@@ -6,7 +6,6 @@ package com.CNFloWopen.niugou.entity;
 public class WechatInfo {
     private Long customerId;
     private Long productId;
-    private Long userAwardId;
     private Long createTime;
     private Long shopId;
 
@@ -26,13 +25,7 @@ public class WechatInfo {
         this.productId = productId;
     }
 
-    public Long getUserAwardId() {
-        return userAwardId;
-    }
 
-    public void setUserAwardId(Long userAwardId) {
-        this.userAwardId = userAwardId;
-    }
 
     public Long getCreateTime() {
         return createTime;

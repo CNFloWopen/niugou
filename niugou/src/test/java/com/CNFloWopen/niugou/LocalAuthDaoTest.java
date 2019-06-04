@@ -21,8 +21,8 @@ import static org.junit.Assert.assertEquals;
 public class LocalAuthDaoTest {
     @Autowired
     LocalAuthDao localAuthDao;
-    private static final String  username = "testusername";
-    private static final String password = "12345";
+    private static final String  username = "test";
+    private static final String password = "444";
     @Test
     public void testBqueryLocalByUserNameAndPwd() {
         LocalAuth localAuth = localAuthDao.queryLocalByUserNameAndPwd(username,password);
@@ -56,9 +56,18 @@ public class LocalAuthDaoTest {
     public void testDupdateLocalAuth() {
         Date date = new Date();
 
-        int effectedNum = localAuthDao.updateLocalAuth(1L,username,password,"444",date);
+        int effectedNum = localAuthDao.updateLocalAuth(1L,username,password,"12345",date);
 //        assertEquals(1,effectedNum);
-        LocalAuth localAuth = localAuthDao.queryLocalByUserId(2L);
+        LocalAuth localAuth = localAuthDao.queryLocalByUserId(1L);
         System.out.println(localAuth.getPassword());
+    }
+
+
+    @Test
+    public void testCheckLocalUserName()
+    {
+        String userName = "test";
+        int effectNum = localAuthDao.checkLocalUserName(userName);
+        System.out.println(effectNum);
     }
 }

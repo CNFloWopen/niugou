@@ -1,8 +1,0 @@
-2019-04-21 16:29:09.695 [http-nio-8080-exec-7] ERROR com.CNFloWopen.niugou.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
-2019-04-21 16:29:09.702 [http-nio-8080-exec-7] ERROR com.CNFloWopen.niugou.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
-2019-04-21 16:29:09.702 [http-nio-8080-exec-7] ERROR com.CNFloWopen.niugou.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
-2019-04-21 16:29:57.647 [http-nio-8080-exec-7] ERROR com.CNFloWopen.niugou.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
-2019-04-21 16:29:57.651 [http-nio-8080-exec-7] ERROR com.CNFloWopen.niugou.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
-2019-04-21 16:29:57.651 [http-nio-8080-exec-7] ERROR com.CNFloWopen.niugou.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
-2019-04-21 16:36:55.543 [http-nio-8080-exec-2] ERROR com.CNFloWopen.niugou.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
-2019-04-21 16:38:31.038 [http-nio-8080-exec-5] ERROR com.CNFloWopen.niugou.util.ImageUtil - javax.imageio.IIOException: Can't read input file!

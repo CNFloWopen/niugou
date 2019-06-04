@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 public class BaiduDwz {
         final static String CREATE_API = "https://dwz.cn/admin/v2/create";
         final static String TOKEN = "c37b738713ddd7d9a2c2c85ff547cef8"; // TODO:设置Token
-        private static Logger log = LoggerFactory.getLogger(ShortNetAddressUtil.class);
+        private static Logger log = LoggerFactory.getLogger(BaiduDwz.class);
         public static int TIMEOUT = 30*1000;  //30秒
         class UrlResponse {
             @SerializedName("Code")

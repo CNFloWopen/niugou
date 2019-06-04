@@ -84,7 +84,7 @@ public class ShopManagementController {
 
     @RequestMapping(value = "/modifyshop",method = RequestMethod.POST)
     @ResponseBody
-    private Map<String,Object> modifyShop(HttpServletRequest request)
+    public Map<String,Object> modifyShop(HttpServletRequest request)
     {
         Map<String,Object> modelMap = new HashMap<String, Object>();
 //        判断验证码是否相同
@@ -144,12 +144,10 @@ public class ShopManagementController {
                 modelMap.put("errMsg",e.getMessage());
             }
 
-//            判断是不是在审核中，此刻的state应该为0
-
             return modelMap;
         }else {
             modelMap.put("success",false);
-            modelMap.put("errMsg","请输入店铺Id");
+            modelMap.put("errMsg","请输入店铺信息");
             return modelMap;
         }
     }
@@ -332,7 +330,8 @@ public class ShopManagementController {
             try {
                 ImageHolder imageHolder = new ImageHolder(shopImg.getOriginalFilename(),shopImg.getInputStream());
                 se = shopService.addShop(shop, imageHolder);
-                if (se.getState() == ShopStateEnum.CHECK.getState()) {
+                if (se.getState() == ShopStateEnum.SUCCESS.getState())
+                {
                     modelMap.put("success", true);
                     @SuppressWarnings("unchecked")
                     //一个用户可以创建多个店铺
@@ -344,9 +343,10 @@ public class ShopManagementController {
                     //有多个店铺时
                     shopList.add(se.getShop());
                     request.getSession().setAttribute("shopList",shopList);
-                } else {
-                    modelMap.put("success", false);
-                    modelMap.put("errMsg", se.getStateInfo());
+                }else {
+                    modelMap.put("success",false);
+                    modelMap.put("errMsg",se.getStateInfo());
+                    return modelMap;
                 }
             } catch (ShopOperationException e) {
                 modelMap.put("success",false);
@@ -356,8 +356,6 @@ public class ShopManagementController {
                 modelMap.put("errMsg",e.getMessage());
             }
 
-//            判断是不是在审核中，此刻的state应该为0
-
             return modelMap;
         }else {
             modelMap.put("success",false);
@@ -365,6 +363,27 @@ public class ShopManagementController {
             return modelMap;
         }
     }
+
+    @RequestMapping(value = "/delshop",method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String,Object> delShop(HttpServletRequest request)
+    {
+        Map<String,Object> modelMap = new HashMap<String, Object>();
+        Long shopId = HttpServletRequestUtil.getLong(request,"shopId");
+        System.out.println("ggg");
+        if (shopId!=null)
+        {
+            shopService.deleteShopByEnable(shopId);
+            modelMap.put("success",true);
+        }else {
+            modelMap.put("success",false);
+            modelMap.put("errMsg","删除失败");
+        }
+
+        return modelMap;
+    }
+
+
 // -----------------改造前使用的方法---------------------------
 //    由于CommonsMultipartFile与File类型不能强制转化
 //    且因为在这里用File类型能够方便测试

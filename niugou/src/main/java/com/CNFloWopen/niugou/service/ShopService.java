@@ -39,4 +39,12 @@ public interface ShopService {
      * @return
      */
     ShopExecution getShopList(Shop shopCondition, int pageIndex, int pageSize);
+
+    /**
+     *
+     * @param shopId
+     */
+    void deleteShopByEnable(long shopId);
+
+
 }

@@ -99,4 +99,8 @@
 		AND
 		password=#{password}
 	</update>
+
+	<select id="checkLocalUserName" resultType="int">
+		select count(1) from tb_local_auth where username=#{userName}
+	</select>
 </mapper>

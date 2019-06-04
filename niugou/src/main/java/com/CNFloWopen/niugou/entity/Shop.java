@@ -35,10 +35,8 @@ public class Shop {
     private Integer priority;
     private Date createTime;
     private Date lastEditTime;
-    //-1:不可用 0:审核中 1:可用
+//    去掉了2个字段
     private Integer enableStatus;
-    //超级管理员给店家的提醒
-    private String advice;
     private Area area;
     private PersonInfo owner;
     private ShopCategory shopCategory;
@@ -116,21 +114,6 @@ public class Shop {
         this.lastEditTime = lastEditTime;
     }
 
-    public Integer getEnableStatus() {
-        return enableStatus;
-    }
-
-    public void setEnableStatus(Integer enableStatus) {
-        this.enableStatus = enableStatus;
-    }
-
-    public String getAdvice() {
-        return advice;
-    }
-
-    public void setAdvice(String advice) {
-        this.advice = advice;
-    }
 
     public Area getArea() {
         return area;
@@ -154,5 +137,20 @@ public class Shop {
 
     public void setShopCategory(ShopCategory shopCategory) {
         this.shopCategory = shopCategory;
+    }
+
+    public Integer getEnableStatus() {
+        return enableStatus;
+    }
+
+    public void setEnableStatus(Integer enableStatus) {
+        this.enableStatus = enableStatus;
+    }
+
+    @Override
+    public String toString() {
+        return "Shop{" +
+                "enableStatus=" + enableStatus +
+                '}';
     }
 }

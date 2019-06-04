@@ -41,4 +41,11 @@ public interface LocalAuthDao {
                         @Param("password") String password,
                         @Param("newPassword") String newPassword,
                         @Param("lastEditTime") Date lastEditTime);
+
+	/**
+	 * 检查用户名是否重复
+	 * @param userName
+	 * @return
+	 */
+	int checkLocalUserName(@Param("userName") String userName);
 }

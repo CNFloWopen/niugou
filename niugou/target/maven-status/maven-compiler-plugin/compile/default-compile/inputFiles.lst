@@ -4,7 +4,6 @@
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/impl/ShopServiceImpl.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/util/ImageUtil.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/local/LocalAuthController.java
-/Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/entity/ProductSellDaily.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/WechatAuthService.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/enums/ShopAuthMapStateEnum.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/enums/ProductStateEnum.java
@@ -34,6 +33,7 @@
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dto/ProductCategoryExecution.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dao/PersonInfoDao.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dto/UserProductMapExecution.java
+/Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/superadmin/CacheController.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/impl/HeadLineServiceImpl.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/cache/JedisPoolWriper.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/service/impl/CacheServiceImpl.java
@@ -59,7 +59,6 @@
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/interceptor/FrontendLoginInterceptor.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dao/ShopDao.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/exceptions/ShopOperationException.java
-/Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/dao/ProductSellDailyDao.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/frontend/MainPageController.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/util/DESUtils.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/frontend/FrontendController.java
@@ -93,7 +92,6 @@
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/entity/ShopCategory.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/entity/HeadLine.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/config/dao/DataSourceConfiguration.java
-/Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/util/ShortNetAddressUtil.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/shopadmin/ProductCategoryManamentController.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/web/shopadmin/ShopAuthManagementController.java
 /Users/argeszy/warehouse/pos/niugou/src/main/java/com/CNFloWopen/niugou/util/CodeUtil.java

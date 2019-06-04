@@ -45,8 +45,10 @@
 									<span id="product-time"></span>
 								</p>
 								<p id="price" hidden="true">
-									<span class="color-gray" id="normalPrice"></span>
-									<span><font color="red" size="4" class="pull-right" id="promotionPrice"></font></span>
+									<span class="color-gray" id="normalPrice">
+
+									</span>
+									<font color="red" size="4"  id="promotionPrice"></font>
 								</p>
 								<p id="product-name"></p>
 								<p id="product-desc"></p>
@@ -65,19 +67,19 @@
 
 		<!--侧边栏  -->
 		<div class="panel-overlay"></div>
-		<div class="panel panel-right panel-reveal" id="panel-left-demo">
+		<div class="panel panel-right panel-reveal" id="panel-left-demo" >
 			<div class="content-block">
 				<p>
-					<a href="/o2o/local/accountbind?usertype=1" class="close-panel">绑定账号</a>
+					<a href="/o2o/local/accountbind?usertype=1" class="close-panel">绑定本地账号</a>
 				</p>
 				<p>
-					<a href="/o2o/local/changepsw?usertype=1" id="bindOrChange" class="close-panel">修改密码</a>
+					<a href="/o2o/local/changepsw?usertype=1" id="bindOrChange" class="close-panel">修改用户密码</a>
 				</p>
 				<p>
 					<a href="#" id="log-out" usertype="1" class="close-panel">登出系统</a>
 				</p>
-				<!-- Click on link with "close-panel" class will close panel -->
-				<p><a href="/o2o/frontend/myrecord" class="close-panel">消费记录</a></p>
+
+				<p><a href="/o2o/frontend/myrecord" class="close-panel">用户消费记录</a></p>
 			</div>
 		</div>
 	</div>

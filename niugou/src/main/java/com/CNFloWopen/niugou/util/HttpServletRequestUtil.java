@@ -42,7 +42,7 @@ public class HttpServletRequestUtil {
             return false;
         }
     }
-    //    把字符串类型的键==转化String的数据==(最常用的)
+    //    把字符串类型的键==转化String的数据==
     public static String getString(HttpServletRequest request,String key)
     {
         try {

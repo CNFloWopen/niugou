@@ -1,6 +1,7 @@
 package com.CNFloWopen.niugou.web.local;
 
 
+import com.CNFloWopen.niugou.dao.LocalAuthDao;
 import com.CNFloWopen.niugou.dto.ImageHolder;
 import com.CNFloWopen.niugou.dto.LocalAuthExecution;
 import com.CNFloWopen.niugou.entity.LocalAuth;
@@ -32,6 +33,8 @@ import java.util.Map;
 public class LocalAuthController {
 	@Autowired
 	private LocalAuthService localAuthService;
+	@Autowired
+	private LocalAuthDao localAuthDao;
 
 	/**
 	 * 用户登录
@@ -98,6 +101,13 @@ public class LocalAuthController {
 		//从session中获取当前用户信息（用户一旦通过微信登录后，便能获取到用户的信息）
 		PersonInfo user = (PersonInfo) request.getSession()
 				.getAttribute("user");
+		int effectNum = localAuthDao.checkLocalUserName(userName);
+		if (effectNum == 1)
+		{
+			modelMap.put("success",false);
+			modelMap.put("errMsg","该用户名已经被注册");
+			return modelMap;
+		}
 		//非空判断，要求密码和当前的session为空
 		if (userName != null && password != null && user != null
 				&& user.getUserId() != null) {
@@ -145,7 +155,13 @@ public class LocalAuthController {
 		//从session中获取当前用户信息（用户一旦通过微信登录后，便能获取到用户的信息）
 		PersonInfo user = (PersonInfo) request.getSession()
 				.getAttribute("user");
-
+		int effectNum = localAuthDao.checkLocalUserName(userName);
+//		if (effectNum == 1 && user.getName() == userName)
+//		{
+//			modelMap.put("success",false);
+//			modelMap.put("errMsg","");
+//			return modelMap;
+//		}
 		if (userName != null && password != null && newPassword != null
 				&& user !=null && user.getUserId()!=null && !password.equals(newPassword)) {
 			try {
@@ -199,88 +215,5 @@ public class LocalAuthController {
 		return modelMap;
 	}
 
-//
-	@RequestMapping(value = "/Loginregister", method = RequestMethod.POST)
-	@ResponseBody
-	private Map<String, Object> register(HttpServletRequest request) {
-		Map<String, Object> modelMap = new HashMap<String, Object>();
-		if (!CodeUtil.checkVerifyCode(request)) {
-			modelMap.put("success", false);
-			modelMap.put("errMsg", "输入了错误的验证码");
-			return modelMap;
-		}
-		ObjectMapper mapper = new ObjectMapper();
-		LocalAuth localAuth = null;
-
-		String localAuthStr = HttpServletRequestUtil.getString(request,
-				"localAuthStr");
-//		MultipartHttpServletRequest multipartRequest = null;
-//		CommonsMultipartFile profileImg = null;
-//		CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver(
-//				request.getSession().getServletContext());
-//		if (multipartResolver.isMultipart(request)) {
-//			multipartRequest = (MultipartHttpServletRequest) request;
-//			profileImg = (CommonsMultipartFile) multipartRequest
-//					.getFile("thumbnail");
-//		}
-		CommonsMultipartFile profileImg = null;
-//        文件上传解析器，解析request中的信息，就是在上下文中找===上传文件的信息
-		CommonsMultipartResolver multipartResolver =
-				new CommonsMultipartResolver(request.getSession().getServletContext());
-		//判断request用户给的请求注册中式不是上传了文件
-		if (multipartResolver.isMultipart(request))
-		{
-//            强制转化
-			MultipartHttpServletRequest multipartHttpServletRequest = (MultipartHttpServletRequest) request;
-//            提取出上传的文件并命名为shopImg
-			// shopImg是和前端约定好的变量名
-			profileImg = (CommonsMultipartFile) multipartHttpServletRequest.getFile("thumbnail");
-		}
-		else {
-			modelMap.put("success", false);
-			modelMap.put("errMsg", "上传图片不能为空");
-			return modelMap;
-		}
-		try {
-			localAuth = mapper.readValue(localAuthStr, LocalAuth.class);
-		} catch (Exception e) {
-			modelMap.put("success", false);
-			modelMap.put("errMsg", e.toString());
-			return modelMap;
-		}
-		if (localAuth != null && localAuth.getPassword() != null
-				&& localAuth.getUserName() != null) {
-			try {
-				PersonInfo user = (PersonInfo) request.getSession()
-						.getAttribute("user");
-				if (user != null && localAuth.getPersonInfo() != null) {
-					localAuth.getPersonInfo().setUserId(user.getUserId());
-				}
-//				localAuth.getPersonInfo().setShopOwnerFlag(1);
-//				localAuth.getPersonInfo().setAdminFlag(0);
-				localAuth.getPersonInfo().setUserType(1);
-				ImageHolder imageHolder = new ImageHolder(profileImg.getOriginalFilename(),profileImg.getInputStream());
-				LocalAuthExecution le = localAuthService.register(localAuth,
-						imageHolder);
-				if (le.getState() == LocalAuthStateEnum.SUCCESS.getState()) {
-					modelMap.put("success", true);
-				} else {
-					modelMap.put("success", false);
-					modelMap.put("errMsg", le.getStateInfo());
-				}
-			} catch (RuntimeException e) {
-				modelMap.put("success", false);
-				modelMap.put("errMsg", e.toString());
-				return modelMap;
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-
-		} else {
-			modelMap.put("success", false);
-			modelMap.put("errMsg", "请输入注册信息");
-		}
-		return modelMap;
-	}
 
 }

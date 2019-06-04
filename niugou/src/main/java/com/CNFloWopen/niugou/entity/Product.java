@@ -36,7 +36,6 @@ public class Product {
     private Date lastEditTime;
     //0:下架 1:在前端展示
     private Integer enableStatus;
-    private Integer point;
     private List<ProductImg> productImgList;
     private ProductCategory productCategory;
     private Shop shop;
@@ -146,13 +145,7 @@ public class Product {
         this.shop = shop;
     }
 
-    public Integer getPoint() {
-        return point;
-    }
 
-    public void setPoint(Integer point) {
-        this.point = point;
-    }
 
     @Override
     public String toString() {

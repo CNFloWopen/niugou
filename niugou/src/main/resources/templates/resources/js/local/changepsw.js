@@ -6,7 +6,7 @@ $(function() {
 	$('#submit').click(function() {
 		//获取账号密码和新密码
 		var userName = $('#userName').val();
-		// var password = $('#password').val();
+		var password = $('#password').val();
 		var newPassword = $('#newPassword').val();
 		var confirmPassword = $('#confirmPassword').val();
 		if (newPassword != confirmPassword)
@@ -16,7 +16,7 @@ $(function() {
 		//添加表单数据
 		var formData = new FormData();
 		formData.append('userName', userName);
-		// formData.append('password', password);
+		formData.append('password', password);
 		formData.append('newPassword', newPassword);
 		//获取验证码
 		var verifyCodeActual = $('#j_captcha').val();
@@ -43,7 +43,7 @@ $(function() {
                         window.location.href = '/o2o/shopadmin/shoplist';
                     }
 				} else {
-					$.toast('提交失败！');
+					$.toast(data.errMsg);
 					$('#captcha_img').click();
 				}
 			}
@@ -51,6 +51,6 @@ $(function() {
 	});
 
 	$('#back').click(function() {
-		window.location.href = '/o2o/local/shoplist';
+		window.location.href = '/o2o/shopadmin/shoplist';
 	});
 });

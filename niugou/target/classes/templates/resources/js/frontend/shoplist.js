@@ -3,7 +3,7 @@ $(function() {
 	//分页允许返回的最大条数，超过此数则禁止访问后台
 	var maxItems = 999;
 	//一页返回的最大条数
-	var pageSize = 3;
+	var pageSize = 5;
 	//获取店铺列表的url
 	var listUrl = '/o2o/frontend/listshops';
 	//获取店铺类别列表以及区域列表的url
@@ -17,7 +17,7 @@ $(function() {
 	var shopName = '';
 	//渲染出店铺类别列表以及区域列表以供搜索
     getSearchDivData();
-    //预先加载10条店铺信息
+    //预先加载5条店铺信息
 	addItems(pageSize,pageNum);
     /**
 	 * 获取店铺类别列表以及区域列表信息
@@ -130,10 +130,10 @@ $(function() {
 	 * 下滑屏幕自动进行分页搜索
      */
 	$(document).on('infinite', '.infinite-scroll-bottom', function() {
-		if (loading)
-			return;
-		addItems(pageSize, pageNum);
-	});
+        if (loading)
+            return;
+        addItems(pageSize, pageNum);
+    });
 	//点击店铺卡片进入该店铺的详情页
 	$('.shop-list').on('click', '.card', function(e) {
 		var shopId = e.currentTarget.dataset.shopId;

@@ -40,7 +40,7 @@ $(function() {
 					}
 
 				} else {
-					$.toast('绑定失败！');
+					$.toast(data.errMsg);
 					$('#captcha_img').click();
 				}
 			}

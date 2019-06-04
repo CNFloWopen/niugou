@@ -17,11 +17,11 @@ public interface WechatAuthDao {
 	 * @return
 	 */
 	int insertWechatAuth(WechatAuth wechatAuth);
-
-	/**
-	 * 删除
-	 * @param wechatAuthId
-	 * @return
-	 */
-	int deleteWechatAuth(Long wechatAuthId);
+//
+//	/**
+//	 * 删除
+//	 * @param wechatAuthId
+//	 * @return
+//	 */
+//	int deleteWechatAuth(Long wechatAuthId);
 }

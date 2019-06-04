@@ -3,7 +3,6 @@ function changeVerifyCode(img) {
     img.src="../Kaptcha?"+Math.floor(Math.random()*100);
 }
 
-//获取shopId
 //name为传进来的key
 function getQuerySting(name) {
     var reg = new RegExp("(^|&)"+name+"=([^&]*)(&|$)");

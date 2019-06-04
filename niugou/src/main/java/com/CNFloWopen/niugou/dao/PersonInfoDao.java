@@ -11,24 +11,24 @@ import java.util.List;
 
 public interface PersonInfoDao {
 
-	/**
-	 * 
-	 * @param personInfoCondition
-	 * @param rowIndex
-	 * @param pageSize
-	 * @return
-	 */
-	List<PersonInfo> queryPersonInfoList(
-            @Param("personInfoCondition") PersonInfo personInfoCondition,
-            @Param("rowIndex") int rowIndex, @Param("pageSize") int pageSize);
-
-	/**
-	 * 
-	 * @param personInfoCondition
-	 * @return
-	 */
-	int queryPersonInfoCount(
-            @Param("personInfoCondition") PersonInfo personInfoCondition);
+//	/**
+//	 *
+//	 * @param personInfoCondition
+//	 * @param rowIndex
+//	 * @param pageSize
+//	 * @return
+//	 */
+//	List<PersonInfo> queryPersonInfoList(
+//            @Param("personInfoCondition") PersonInfo personInfoCondition,
+//            @Param("rowIndex") int rowIndex, @Param("pageSize") int pageSize);
+//
+//	/**
+//	 *
+//	 * @param personInfoCondition
+//	 * @return
+//	 */
+//	int queryPersonInfoCount(
+//            @Param("personInfoCondition") PersonInfo personInfoCondition);
 
 	/**
 	 * 通过用户id查询用户
@@ -44,17 +44,12 @@ public interface PersonInfoDao {
 	 */
 	int insertPersonInfo(PersonInfo personInfo);
 
-	/**
-	 * 
-	 * @param
-	 * @return
-	 */
-	int updatePersonInfo(PersonInfo personInfo);
 
-	/**
-	 * 
-	 * @param
-	 * @return
-	 */
-	int deletePersonInfo(long userId);
+//
+//	/**
+//	 *
+//	 * @param
+//	 * @return
+//	 */
+//	int deletePersonInfo(long userId);
 }

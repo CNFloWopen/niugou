@@ -115,13 +115,13 @@ public class UserProductManagementController {
 				wechatInfo = mapper.readValue(qrCodeinfo.replace("aaa","\""),WechatInfo.class);
 			}catch (Exception e)
 			{
-				return "shop/operationfail";
+				return "operatorFail";
 			}
 
 			//效验二维码是否过期
 			if (!checkQRCodeInfo(wechatInfo))
 			{
-				return "shop/operationfail";
+				return "operatorFail";
 			}
 
 //			获取添加消费记录所需要的参数并组建成userproductmap实例
@@ -134,21 +134,21 @@ public class UserProductManagementController {
 				try {
 					if (!checkShopAuth(operator.getUserId(),userProductMap))
 					{
-						return "shop/operationfail";
+						return "operatorFail";
 					}
 //					添加消费记录
 					UserProductMapExecution se = userProductMapService.addUserProductMap(userProductMap);
 					if (se.getState() == UserProductMapStateEnum.SUCCESS.getState())
 					{
-						return "shop/operationsuccess";
+						return "operatorSuccess";
 					}
 				}catch (Exception e)
 				{
-						return "shop/operationfail";
+						return "operatorFail";
 				}
 			}
 		}
-		return "shop/operationfail";
+		return "operatorFail";
 
 	}
 

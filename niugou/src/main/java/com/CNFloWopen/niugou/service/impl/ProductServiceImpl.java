@@ -128,7 +128,7 @@ public class ProductServiceImpl implements ProductService {
                 }
                 return new ProductExecution(ProductStateEnum.SUCCESS, product);
             } catch (Exception e) {
-                throw new RuntimeException("更新商品信息失败:" + e.toString());
+                throw new RuntimeException("更新商品信息失败:" + e.getMessage());
             }
         } else {
             return new ProductExecution(ProductStateEnum.EMPTY);
@@ -176,7 +176,7 @@ public class ProductServiceImpl implements ProductService {
                         throw new RuntimeException("创建商品详情图片失败");
                     }
                 } catch (Exception e) {
-                    throw new RuntimeException("创建商品详情图片失败:" + e.toString());
+                    throw new RuntimeException("创建商品详情图片失败:" + e.getMessage());
                 }
         }
     }
@@ -186,7 +186,8 @@ public class ProductServiceImpl implements ProductService {
      * @param product
      * @param thumbnail
      */
-    private void addThumbnail(Product product, ImageHolder thumbnail) {
+    @Transactional
+    public void addThumbnail(Product product, ImageHolder thumbnail) {
         String dest = PathUtil.getShopImagePath(product.getShop().getShopId());
         String thumbnailAddr = ImageUtil.generateThumbnail(thumbnail, dest);
         product.setImgAddr(thumbnailAddr);

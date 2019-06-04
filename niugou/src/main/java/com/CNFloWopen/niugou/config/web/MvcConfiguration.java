@@ -138,7 +138,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
         loginIR.excludePathPatterns("/shopadmin/addshopauthmap");
         loginIR.excludePathPatterns("/shopadmin/adduserproductmap");
 
-//        注册其他拦截器
+//        注册店家操作拦截器
         InterceptorRegistration permissionIR = registry.addInterceptor(new ShopPermissionInterceptor());
 //        配置拦截的路径
         permissionIR.addPathPatterns(interceptPath);
@@ -156,7 +156,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
 
         permissionIR.excludePathPatterns("/shopadmin/addshopauthmap");
         permissionIR.excludePathPatterns("/shopadmin/adduserproductmap");
-        // 注册用户拦截器
+        // 用户拦截器
         InterceptorRegistration loginIR2 =registry.addInterceptor(new FrontendLoginInterceptor());
 //        配置拦截的路径
         loginIR2.addPathPatterns(interceptFrontend);

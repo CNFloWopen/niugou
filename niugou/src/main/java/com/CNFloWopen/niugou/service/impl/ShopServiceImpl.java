@@ -41,8 +41,7 @@ public class ShopServiceImpl implements ShopService {
         }
 
         try {
-//            给店铺赋初始值
-            shop.setEnableStatus(0);
+            shop.setEnableStatus(1);
             shop.setCreateTime(new Date());
             shop.setLastEditTime(new Date());
 //            添加店铺信息
@@ -93,7 +92,7 @@ public class ShopServiceImpl implements ShopService {
         } catch (Exception e) {
             throw new ShopOperationException("addShop error"+e.getMessage());
         }
-        return new ShopExecution(ShopStateEnum.CHECK,shop);
+        return new ShopExecution(ShopStateEnum.SUCCESS,shop);
     }
 
     @Override
@@ -113,7 +112,7 @@ public class ShopServiceImpl implements ShopService {
         if (shop == null || shop.getShopId() == null) {
             return new ShopExecution(ShopStateEnum.NULL_SHOP);
         } else {
-            //1.判断是否真的需要图片
+
             try {
                 if (thumbnail.getImage() != null && thumbnail.getImageName() != null && !"".equals(thumbnail.getImageName())) {
                     Shop tempShop = shopDao.queryByShopId(shop.getShopId());
@@ -132,7 +131,7 @@ public class ShopServiceImpl implements ShopService {
                     return new ShopExecution(ShopStateEnum.SUCCESS, shop);
                 }
             }catch (Exception e){
-                throw new ShopOperationException("modifyShop error"+e.getMessage());
+                throw new ShopOperationException(e.getMessage());
             }
         }
 
@@ -158,10 +157,18 @@ public class ShopServiceImpl implements ShopService {
         return se;
     }
 
-    private void addShopImg(Shop shop, ImageHolder thumbnail) {
+    @Override
+    public void deleteShopByEnable(long shopId) {
+        shopDao.deleteShopByEnable(shopId);
+    }
+    @Transactional
+    public void addShopImg(Shop shop, ImageHolder thumbnail) {
 //          获取图片shopImg的相对路径
         String dest = PathUtil.getShopImagePath(shop.getShopId());
         String shopImgAddr = ImageUtil.generateThumbnail(thumbnail,dest);
         shop.setShopImg(shopImgAddr);
     }
+
+
+
 }

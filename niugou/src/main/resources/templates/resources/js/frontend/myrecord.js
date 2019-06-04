@@ -27,8 +27,8 @@ $(function() {
 							+ '<div class="list-block media-list">' + '<ul>'
 							+ '<li class="item-content">'
 							+ '<div class="item-inner">'
-							+ '<div class="item-subtitle">' + item.product.productName
-							+ '</div>' + '</div>' + '</li>' + '</ul>'
+							+ '<div class="item-title"">' + item.product.productName
+							+ '</div>' + '<div class="item-subtitle">'+'<font color="red" style="margin-left: 30%">'+item.product.promotionPrice+"元"+'</font>'+'</div>'+ '</div>' + '</li>' + '</ul>'
 							+ '</div>' + '</div>' + '<div class="card-footer">'
 							+ '<p class="color-gray">'
 							+ new Date(item.createTime).Format("yyyy-MM-dd")

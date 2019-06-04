@@ -17,7 +17,7 @@ public class ShopExecution {
     private int state;
     //店铺数量
     private int count;
-    //状态标识
+    //状态标识是以文字形式进行说明
     private String stateInfo;
     //shop电路列表
     private List<Shop> shopList;

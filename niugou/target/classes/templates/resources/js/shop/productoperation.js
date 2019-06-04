@@ -25,8 +25,6 @@ $(function() {
                         $('#normal-price').val(product.normalPrice);
                         $('#promotion-price').val(
                             product.promotionPrice);
-                        $('#point').val(
-                            product.point);
                         var optionHtml = '';
                         var optionArr = data.productCategoryList;
                         var optionSelected = product.productCategory.productCategoryId;
@@ -75,7 +73,6 @@ $(function() {
             product.priority = $('#priority').val();
             product.normalPrice = $('#normal-price').val();
             product.promotionPrice = $('#promotion-price').val();
-            product.point = $('#point').val();
             product.productCategory = {
                 productCategoryId : $('#category').find('option').not(
                     function() {

@@ -39,6 +39,7 @@ public class AreaServiceImpl implements AreaService {
     public List<Area> getAreaList() {
         String key = AREALISTKEY;
         List<Area> areaList = null;
+//        因为要以键值对的方式存储，数据转化操作类 。
         ObjectMapper mapper = new ObjectMapper();
 //        cacheService.removeFromCache(key);
         if (!jedisKeys.exists(key))
@@ -46,6 +47,7 @@ public class AreaServiceImpl implements AreaService {
             areaList= areaDao.queryArea();
             String jsonString = null;
             try {
+//                将areaList的json数组转为string形式
                 jsonString = mapper.writeValueAsString(areaList);
             } catch (JsonProcessingException e) {
                 e.printStackTrace();
@@ -54,8 +56,10 @@ public class AreaServiceImpl implements AreaService {
             jedisStrings.set(key,jsonString);
         }else {
             String jsonString = jedisStrings.get(key);
+//            获取类型创建工厂，把ArrayList.class转为Area.class
             JavaType javaType = mapper.getTypeFactory().constructParametricType(ArrayList.class,Area.class);
             try {
+//                将string对象转为java对象，Area.class
                 areaList = mapper.readValue(jsonString,javaType);
 
             } catch (IOException e) {

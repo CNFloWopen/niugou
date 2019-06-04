@@ -15,6 +15,7 @@
 			javaType="com.CNFloWopen.niugou.entity.Product">
 			<id column="product_id" property="productId" />
 			<result column="product_name" property="productName" />
+			<result column="promotion_price" property="promotionPrice" />
 		</association>
 		<association property="shop" column="shop_id"
 			javaType="com.CNFloWopen.niugou.entity.Shop">
@@ -38,6 +39,7 @@
 		s.shop_name,
 		p.product_id,
 		p.product_name,
+		promotion_price,
 		operator.user_id AS operator_id,
 		operator.name AS operator_name
 		FROM
